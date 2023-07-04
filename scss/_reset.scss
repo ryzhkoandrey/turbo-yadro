@@ -1,0 +1,73 @@
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+   padding: 0;
+   margin: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   border: 0;
+   outline: none;
+}
+
+html,
+body {
+   height: 100%;
+}
+
+a {
+   display: inline-block;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+   height: auto;
+}
+
+sub {
+   vertical-align: sub;
+}
+
+sup {
+   vertical-align: super;
+}
+
+ol,
+ul {
+   list-style: none;
+}
+
+q,
+blockquote {
+   quotes: none;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+button,
+input,
+textarea {
+   font-family: inherit;
+   color: inherit;
+}
+
+label,
+button,
+input[type="checkbox"],
+input[type="radio"],
+input[type="submit"] {
+   cursor: pointer;
+}
+
+textarea {
+   resize: none;
+}

@@ -1,0 +1,17 @@
+body {
+   overflow-x: hidden;
+   display: flex;
+   flex-direction: column;
+   min-width: 320px;
+   min-height: 100vh;
+}
+
+a {
+   text-decoration: none;
+}
+
+a,
+button,
+path {
+   transition: .2s;
+}
