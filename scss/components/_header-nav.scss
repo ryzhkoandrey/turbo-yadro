@@ -1,0 +1,19 @@
+.header-nav {
+
+   &__list {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+   }
+
+   &__item {}
+
+   &__link {
+      color: #07040C;
+      font-size: 14px;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+   }
+}

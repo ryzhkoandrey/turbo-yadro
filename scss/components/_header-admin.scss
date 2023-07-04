@@ -1,0 +1,27 @@
+.header-admin {
+
+   &__list {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+   }
+
+   &__item {}
+
+   &__btn {
+      color: #07040C;
+      font-size: 14px;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+
+      &--outline {
+         min-width: 80px;
+         text-align: center;
+         padding: 11px 19px;
+         border-radius: 30px;
+         border: 1px solid #000;
+      }
+   }
+}
