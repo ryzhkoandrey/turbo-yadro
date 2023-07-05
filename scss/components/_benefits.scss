@@ -1,0 +1,9 @@
+.benefits {
+   margin: 0 0 130px;
+
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+   }
+}

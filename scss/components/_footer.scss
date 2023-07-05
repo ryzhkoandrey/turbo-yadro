@@ -3,6 +3,13 @@
    padding: 70px 0 75px;
    background: #07040C;
 
+   a {
+
+      &:hover {
+         color: #F35A05;
+      }
+   }
+
    &__inner {
       display: flex;
    }

@@ -1,14 +1,19 @@
 .btn {
-   padding: 22px;
+   padding: 20px;
    min-width: 220px;
    color: #FFF;
    text-align: center;
    font-size: 14px;
    font-family: Ubuntu;
    font-weight: 700;
-   line-height: normal;
    text-align: center;
    text-transform: uppercase;
    border-radius: 30px;
    background: #F35A05;
+   border: 2px solid #F35A05;
+
+   &:hover {
+      color: #F35A05;
+      background: #FFF;
+   }
 }

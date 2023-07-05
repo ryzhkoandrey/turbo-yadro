@@ -8,8 +8,11 @@
       font-size: 14px;
       font-family: Ubuntu;
       font-weight: 500;
-      line-height: normal;
       text-transform: uppercase;
+
+      &:hover {
+         color: #F35A05;
+      }
 
       &--register {}
 
@@ -19,6 +22,12 @@
          padding: 11px 19px;
          border-radius: 30px;
          border: 1px solid #000;
+
+         &:hover {
+            color: #fff;
+            background: #F35A05;
+            border-color: #F35A05;
+         }
       }
    }
 }
