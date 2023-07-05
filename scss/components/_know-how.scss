@@ -1,0 +1,28 @@
+.know-how {
+   margin: 0 0 140px;
+
+   &__title {
+      margin: 0 0 40px;
+   }
+
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+   }
+
+   &__left {
+      padding: 10px 0 0;
+      max-width: 626px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+   }
+
+   &__right {
+      flex-shrink: 0;
+      max-width: 620px;
+   }
+
+   &__img {}
+}

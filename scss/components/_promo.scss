@@ -5,6 +5,7 @@
    &__inner {
       display: flex;
       justify-content: space-between;
+      gap: 15px;
    }
 
    &__left {
@@ -54,6 +55,7 @@
    }
 
    &__right {
+      flex-shrink: 0;
       max-width: 620px;
    }
 
