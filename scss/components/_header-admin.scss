@@ -1,12 +1,7 @@
 .header-admin {
-
-   &__list {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-   }
-
-   &__item {}
+   display: flex;
+   align-items: center;
+   gap: 20px;
 
    &__btn {
       color: #07040C;
@@ -16,7 +11,9 @@
       line-height: normal;
       text-transform: uppercase;
 
-      &--outline {
+      &--register {}
+
+      &--login {
          min-width: 80px;
          text-align: center;
          padding: 11px 19px;

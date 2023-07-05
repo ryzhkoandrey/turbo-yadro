@@ -1,12 +1,7 @@
-.header-nav {
-
-   &__list {
-      display: flex;
-      align-items: center;
-      gap: 40px;
-   }
-
-   &__item {}
+.header-menu {
+   display: flex;
+   align-items: center;
+   gap: 40px;
 
    &__link {
       color: #07040C;

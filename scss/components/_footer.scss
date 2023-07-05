@@ -1,3 +1,70 @@
 .footer {
    margin: auto 0 0;
+   padding: 70px 0 75px;
+   background: #07040C;
+
+   &__inner {
+      display: flex;
+   }
+
+   &__col {
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      min-width: 220px;
+
+      &:nth-child(1) {
+         margin: 0 99px 0 0;
+      }
+
+      &:nth-child(2) {
+         margin: 0 57px 0 0;
+      }
+
+      &:nth-child(3) {
+         margin: 0 53px 0 0;
+      }
+   }
+
+   &__logo {
+      max-width: 204px;
+      margin: 0 0 25px;
+   }
+
+   &__copy {
+      color: #CACBD7;
+      font-size: 16px;
+      font-family: Inter;
+      line-height: 150%;
+   }
+
+   &__title {
+      margin: 0 0 20px;
+      color: #CACBD7;
+      font-size: 16px;
+      font-family: Inter;
+      line-height: 145%;
+   }
+
+   &__value {
+      color: #FFF;
+      font-size: 18px;
+      font-family: Inter;
+      line-height: 145%;
+
+      &:not(:last-child) {
+         margin: 0 0 10px;
+      }
+   }
+
+   &__link {
+      color: #CACBD7;
+      font-size: 16px;
+      font-family: Inter;
+      line-height: 145%;
+
+      &:not(:last-child) {
+         margin: 0 0 15px;
+      }
+   }
 }
