@@ -1,0 +1,14 @@
+.price {
+   margin: 0 0 130px;
+
+   &__title {
+      margin: 0 0 40px;
+   }
+
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 30px;
+   }
+}

@@ -5,7 +5,7 @@
 
 // libs
 
-@import '../libs/fancybox/fancybox.min.css';
+@import '../libs/fancybox.min.css';
 
 // components
 
@@ -29,6 +29,10 @@
 
 @import 'components/how-work';
 @import 'components/how-work-item';
+
+@import 'components/price';
+@import 'components/price-services';
+@import 'components/price-benefits';
 
 @import 'components/footer';
 @import 'components/footer-logo';

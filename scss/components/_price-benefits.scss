@@ -1,0 +1,35 @@
+.price-benefits {
+   max-width: 560px;
+
+   &__item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      
+      &:not(:last-child) {
+         margin: 0 0 30px;
+      }
+   }
+
+   &__icon {
+      max-width: 100px;
+   }
+
+   &__content {}
+
+   &__title {
+      margin: 0 0 15px;
+      color: #07040C;
+      font-family: Ubuntu;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 125%;
+   }
+
+   &__text {
+      color: #585967;
+      font-family: Inter;
+      font-size: 16px;
+      line-height: 145%;
+   }
+}
