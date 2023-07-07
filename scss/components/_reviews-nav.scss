@@ -1,0 +1,52 @@
+.reviews-nav {
+   transform: translate(-15px, -14px);
+   flex-shrink: 0;
+   display: flex;
+   align-items: center;
+   gap: 3px;
+
+   &__btn {
+      max-width: 24px;
+
+      &:hover {
+
+         path {
+            stroke: #F35A05;
+         }
+      }
+
+      path {
+         stroke: #07040C;
+      }
+
+      // swiper
+
+      &.swiper-button-disabled {
+         cursor: default;
+
+         path {
+            stroke: #9A9BAD;
+         }
+      }
+   }
+
+   &__btn--prev {
+      margin: 0 26px 0 0;
+   }
+
+   &__pagination {
+      color: #9A9BAD;
+      font-family: Inter;
+      font-size: 18px;
+
+      // swiper
+
+      .swiper-pagination-current {
+         display: inline-block;
+         min-width: 12px;
+         color: #07040C;
+      }
+   }
+
+   &__btn--next {}
+}

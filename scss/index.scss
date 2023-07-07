@@ -3,11 +3,12 @@
 @import 'reset';
 @import 'base';
 
-// libs
+// LIBS
 
 @import '../libs/fancybox.min.css';
+@import '../libs/swiper.min.css';
 
-// components
+// COMPONENTS
 
 @import 'components/hide';
 @import 'components/container';
@@ -33,6 +34,10 @@
 @import 'components/price';
 @import 'components/price-services';
 @import 'components/price-benefits';
+
+@import 'components/reviews';
+@import 'components/reviews-nav';
+@import 'components/reviews-item';
 
 @import 'components/footer';
 @import 'components/footer-logo';
