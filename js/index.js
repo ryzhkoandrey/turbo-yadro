@@ -19,11 +19,14 @@ const reviewsSlider = new Swiper('.reviews__slider', {
 
 $('.faq-item__top').each(function() {
    if ($(this).parent('.faq-item').hasClass('faq-item--active')) {
-      $(this).siblings('.faq-item__content').slideToggle(300);
+      $(this).siblings('.faq-item__content').slideDown(300);
    }
 });
 
 $('.faq-item__top').click(function() {
-   $(this).parent('.faq-item').toggleClass('faq-item--active')
-	$(this).siblings('.faq-item__content').slideToggle(300);
+   $('.faq-item__top').parent('.faq-item').removeClass('faq-item--active');
+   $('.faq-item__top').siblings('.faq-item__content').slideUp(300);
+
+   $(this).parent('.faq-item').addClass('faq-item--active')
+	$(this).siblings('.faq-item__content').slideDown(300);
 });

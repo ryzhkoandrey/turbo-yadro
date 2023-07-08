@@ -2,6 +2,10 @@
    border-bottom: 1px solid #E2E3EF;
    
    &--active {
+
+      .faq-item__top {
+         pointer-events: none;
+      }
       
       .faq-item__title {
          color: #F35A05;
