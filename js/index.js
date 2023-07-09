@@ -40,7 +40,15 @@ $('#btn-login').hide();
 
 $('#btn-password').click(function(e) {
    e.preventDefault();
-   $('#form-field-password').slideDown(300);
-   $('#btn-password').hide();
-   $('#btn-login').slideDown(300);
+   $('#form-field-password').slideDown(200);
+   $('#btn-password').hide(0);
+   $('#btn-login').slideDown(200);
+});
+
+$('#btn-login-modal').click(function(e) {
+   e.preventDefault();
+});
+
+$('#btn-register-modal').click(function(e) {
+   e.preventDefault();
 });

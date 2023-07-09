@@ -22,11 +22,30 @@
       gap: 30px;
    }
 
+   &__row {
+      display: flex;
+      justify-content: space-between;
+   }
+
    &__form-field {}
+
+   &__form-checkbox {}
 
    &__btn {}
 
    &__btn-light {
       align-self: center;
+   }
+
+   &__link {
+      color: #585967;
+      text-align: right;
+      font-family: Ubuntu;
+      font-size: 16px;
+      line-height: 150%;
+
+      &:hover {
+         color: #F35A05;
+      }
    }
 }

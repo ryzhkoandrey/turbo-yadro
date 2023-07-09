@@ -781,8 +781,66 @@
                </button>
 
                <!-- modal item btn light -->
-               <button class="btn btn--light modal-item__btn-light" data-graph-path="login" data-graph-animation="fadeInUp">
+               <button class="btn btn--light modal-item__btn-light" id="btn-login-modal" data-graph-path="login" data-graph-animation="fadeInUp">
                   Я уже зарегестрирован
+               </button>
+            </form>
+         </div>
+      </div>
+
+      <!-- modal item (login) -->
+      <div class="graph-modal__container modal-item" role="dialog" aria-modal="true" data-graph-target="login">
+         <button class="graph-modal__close js-modal-close" aria-label="Закрыть модальное окно">
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M26.3848 8L8 26.3848M26.3848 26.3848L8 8" stroke="#07040C" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+         </button>
+         <div class="graph-modal__content">
+            <h2 class="modal-item__title">
+               Вход
+            </h2>
+            <form class="modal-item__form" action="#">
+
+               <!-- modal item form field (nickname) -->
+               <div class="form-field modal-item__form-field">
+                  <label class="form-field__title" for="nickname-2">
+                     Ваш логин
+                  </label>
+                  <input class="form-field__input" id="nickname-2" type="text" placeholder="nickname">
+                  <p class="form-field__text">
+                     *введите логин без @
+                  </p>
+               </div>
+
+               <!-- modal item form field (password) -->
+               <div class="form-field modal-item__form-field">
+                  <label class="form-field__title" for="password-2">
+                     Пароль
+                  </label>
+                  <input class="form-field__input" id="password-2" type="password">
+               </div>
+
+               <!-- modal item row -->
+               <div class="modal-item__row">
+                  <label class="form-checkbox modal-item__form-checkbox">
+                     <input class="form-checkbox__input" type="checkbox" checked>
+                     <span class="form-checkbox__text">
+                        Запомнить меня
+                     </span>
+                  </label>
+                  <a class="modal-item__link" href="#">
+                     Забыли пароль
+                  </a>
+               </div>
+
+               <!-- modal item btn -->
+               <button class="btn modal-item__btn">
+                  Войти
+               </button>
+
+               <!-- modal item btn light -->
+               <button class="btn btn--light modal-item__btn-light" id="btn-register-modal" data-graph-path="register" data-graph-animation="fadeInUp">
+                  Зарегистрироваться
                </button>
             </form>
          </div>
