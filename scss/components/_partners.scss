@@ -1,0 +1,17 @@
+.partners {
+   margin: 0 0 120px;
+
+   &__title {
+      margin: 0 0 40px;
+   }
+
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+   }
+
+   &__img {
+      max-width: 620px;
+   }
+}
