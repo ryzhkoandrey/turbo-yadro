@@ -30,3 +30,17 @@ $('.faq-item__top').click(function() {
    $(this).parent('.faq-item').addClass('faq-item--active')
 	$(this).siblings('.faq-item__content').slideDown(300);
 });
+
+// MODAL
+
+const modal = new GraphModal();
+
+$('#form-field-password').hide();
+$('#btn-login').hide();
+
+$('#btn-password').click(function(e) {
+   e.preventDefault();
+   $('#form-field-password').slideDown(300);
+   $('#btn-password').hide();
+   $('#btn-login').slideDown(300);
+});

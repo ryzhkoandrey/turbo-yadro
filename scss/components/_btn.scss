@@ -16,4 +16,14 @@
       color: #F35A05;
       background: #FFF;
    }
+
+   &--light {
+      padding: 0;
+      min-width: auto;
+      color: #595B62;
+      font-weight: 500;
+      line-height: 150%;
+      background: transparent;
+      border: none;
+   }
 }

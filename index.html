@@ -38,10 +38,10 @@
    
             <!-- header admin -->
             <nav class="header-admin">
-               <button class="header-admin__btn header-admin__btn--register">
+               <button class="header-admin__btn header-admin__btn--register" data-graph-path="register" data-graph-animation="fadeInUp">
                   Регистрация
                </button>
-               <button class="header-admin__btn header-admin__btn--login">
+               <button class="header-admin__btn header-admin__btn--login" data-graph-path="login" data-graph-animation="fadeInUp">
                   Вход
                </button>
             </nav>
@@ -63,7 +63,7 @@
                   Сервис <span class="promo__text-accent">автоматического</span> сбора очищенных запросов для любой страницы сайта
                </p>
                <div class="promo__action">
-                  <button class="btn promo__btn">
+                  <button class="btn promo__btn" data-graph-path="register" data-graph-animation="fadeInUp">
                      Попробовать
                   </button>
                   <p class="promo__action-text">
@@ -528,7 +528,7 @@
 
          <!-- reviews bottom -->
          <div class="reviews__bottom">
-            <button class="btn reviews__btn">
+            <button class="btn reviews__btn" data-graph-path="register" data-graph-animation="fadeInUp">
                Попробовать
             </button>
          </div>
@@ -689,7 +689,7 @@
                   <img class="footer-logo__img" src="img/logo-dark.png" width="204" height="55" alt="Турбо Ядро">
                </a>
                <p class="footer__copy">
-                  Турбо Ядро &copy; [2022]. Все права защищены
+                  Турбо Ядро &copy; [2023]. Все права защищены
                </p>
             </div>
    
@@ -735,10 +735,65 @@
       </div>
    </footer>
 
+   <!-- MODAL -->
+   <div class="graph-modal modal">
+
+      <!-- modal item (register) -->
+      <div class="graph-modal__container modal-item" role="dialog" aria-modal="true" data-graph-target="register">
+         <button class="graph-modal__close js-modal-close" aria-label="Закрыть модальное окно">
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M26.3848 8L8 26.3848M26.3848 26.3848L8 8" stroke="#07040C" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+         </button>
+         <div class="graph-modal__content">
+            <h2 class="modal-item__title">
+               Регистрация
+            </h2>
+            <form class="modal-item__form" action="#">
+
+               <!-- modal item form field (nickname) -->
+               <div class="form-field modal-item__form-field">
+                  <label class="form-field__title" for="nickname">
+                     Ваш ник в Телеграмме
+                  </label>
+                  <input class="form-field__input" id="nickname" type="text" placeholder="nickname">
+                  <p class="form-field__text">
+                     *введите никнейм без @
+                  </p>
+               </div>
+
+               <!-- modal item form field (password) -->
+               <div class="form-field modal-item__form-field" id="form-field-password">
+                  <label class="form-field__title" for="password">
+                     Пароль
+                  </label>
+                  <input class="form-field__input" id="password" type="password">
+               </div>
+
+               <!-- modal item btn 1 -->
+               <button class="btn modal-item__btn" id="btn-password">
+                  Выслать пароль
+               </button>
+
+               <!-- modal item btn 2 -->
+               <button class="btn modal-item__btn" id="btn-login">
+                  Войти
+               </button>
+
+               <!-- modal item btn light -->
+               <button class="btn btn--light modal-item__btn-light" data-graph-path="login" data-graph-animation="fadeInUp">
+                  Я уже зарегестрирован
+               </button>
+            </form>
+         </div>
+      </div>
+   </div>
+
    <!-- js -->
    <script src="libs/jquery.min.js"></script>
    <script src="libs/fancybox.min.js"></script>
    <script src="libs/swiper.min.js"></script>
+   <script src="libs/graph-modal.min.js"></script>
    <script src="js/index.js"></script>
    
 </body>

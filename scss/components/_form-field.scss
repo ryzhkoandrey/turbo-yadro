@@ -1,0 +1,37 @@
+.form-field {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 15px;
+
+   &__title {
+      color: #585967;
+      font-family: Ubuntu;
+      font-size: 16px;
+   }
+
+   &__input {
+      padding: 15px 14px;
+      color: #07040C;
+      font-family: Ubuntu;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #E2E3EF;
+      background: #FFF;
+
+      &:hover,
+      &:focus {
+         border-color: #F35A05;
+      }
+
+      &::placeholder {
+         color: #808296;
+      }
+   }
+
+   &__text {
+      color: #585967;
+      font-family: Ubuntu;
+      font-size: 14px;
+   }
+}

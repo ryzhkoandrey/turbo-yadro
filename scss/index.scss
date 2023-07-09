@@ -7,6 +7,7 @@
 
 @import '../libs/fancybox.min.css';
 @import '../libs/swiper.min.css';
+@import '../libs/graph-modal.min.css';
 
 // COMPONENTS
 
@@ -14,6 +15,7 @@
 @import 'components/container';
 @import 'components/title';
 @import 'components/btn';
+@import 'components/form-field';
 
 @import 'components/header';
 @import 'components/header-logo';
@@ -44,6 +46,9 @@
 
 @import 'components/partners';
 @import 'components/partners-list';
+
+@import 'components/modal';
+@import 'components/modal-item';
 
 @import 'components/footer';
 @import 'components/footer-logo';
