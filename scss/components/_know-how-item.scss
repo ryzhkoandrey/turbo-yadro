@@ -5,6 +5,10 @@
    border-radius: 15px;
    border: 1px dashed #E2E3EF;
    transition: .3s;
+   
+   @media (max-width: 576px) {
+      padding: 15px 15px 15px 51px;
+   }
 
    &:hover {
       box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.15);
@@ -14,6 +18,12 @@
       position: absolute;
       top: 24px;
       left: 20px;
+      max-width: 21px;
+      
+      @media (max-width: 576px) {
+         top: 18px;
+         left: 14px;
+      }
    }
 
    &__title {
@@ -23,6 +33,11 @@
       font-family: Ubuntu;
       font-weight: 700;
       line-height: 125%;
+      
+      @media (max-width: 576px) {
+         margin: 0 0 10px;
+         font-size: 20px;
+      }
    }
 
    &__text {
@@ -30,6 +45,10 @@
       font-size: 16px;
       font-family: Inter;
       line-height: 145%;
+
+      @media (max-width: 576px) {
+         font-size: 15px;
+      }
    }
 
    &__list {}
@@ -40,5 +59,9 @@
       font-size: 16px;
       font-family: Inter;
       line-height: 145%;
+      
+      @media (max-width: 576px) {
+         margin: 0 0 7px;
+      }
    }
 }

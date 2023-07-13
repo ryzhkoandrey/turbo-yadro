@@ -2,7 +2,11 @@
    margin: 0 0 130px;
 
    @media (max-width: 576px) {
-      margin: 0 0 60px;
+      margin: 0 0 90px;
+   }
+
+   @media (max-width: 377px) {
+      margin: 0 0 57px;
    }
 
    &__inner {

@@ -5,6 +5,15 @@
    font-family: Ubuntu;
    font-weight: 700;
 
+   @media (max-width: 576px) {
+      font-size: 36px;
+   }
+
+   @media (max-width: 576px) {
+      font-size: 28px;
+      line-height: 125%;
+   }
+
    &--left {
       text-align: left;
    }
