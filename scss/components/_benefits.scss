@@ -1,9 +1,23 @@
 .benefits {
    margin: 0 0 130px;
 
+   @media (max-width: 576px) {
+      margin: 0 0 60px;
+   }
+
    &__inner {
       display: flex;
       justify-content: space-between;
       gap: 15px;
+
+      @media (max-width: 1024px) {
+         flex-wrap: wrap;
+         gap: 30px 15px;
+      }
+
+      @media (max-width: 576px) {
+         justify-content: center;
+         gap: 30px 18px;
+      }
    }
 }
