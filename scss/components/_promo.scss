@@ -40,6 +40,10 @@
       font-weight: 700;
       
       @media (max-width: 576px) {
+         font-size: 42px;
+      }
+
+      @media (max-width: 377px) {
          margin: 0 0 16px;
          font-size: 32px;
       }
@@ -52,8 +56,12 @@
       font-size: 20px;
       font-family: Inter;
       line-height: 145%;
-      
+
       @media (max-width: 576px) {
+         margin: 0 0 30px;
+      }
+      
+      @media (max-width: 377px) {
          margin: 0 0 14px;
          font-size: 16px;
       }
@@ -70,6 +78,9 @@
 
       @media (max-width: 576px) {
          flex-direction: column;
+      }
+
+      @media (max-width: 377px) {
          gap: 8px;
       }
    }
@@ -83,7 +94,7 @@
       font-family: Inter;
       line-height: 145%;
 
-      @media (max-width: 576px) {
+      @media (max-width: 377px) {
          max-width: 175px;
          font-size: 13px;
          text-align: center;
@@ -94,7 +105,7 @@
       max-width: 18px;
       display: inline-block;
 
-      @media (max-width: 576px) {
+      @media (max-width: 377px) {
          max-width: 13px;
       }
    }
