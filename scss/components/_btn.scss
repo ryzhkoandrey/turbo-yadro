@@ -12,6 +12,12 @@
    background: #F35A05;
    border: 2px solid #F35A05;
 
+   @media (max-width: 377px) {
+      padding: 17px;
+      min-width: 260px;
+      font-size: 12px;
+   }
+
    &:hover {
       color: #F35A05;
       background: #FFF;
