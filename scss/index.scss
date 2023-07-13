@@ -1,15 +1,18 @@
 // GLOBAL
+
 @import 'vars';
 @import 'fonts';
 @import 'reset';
 @import 'base';
 
 // LIBS
+
 @import '../libs/fancybox.min.css';
 @import '../libs/swiper.min.css';
 @import '../libs/graph-modal.min.css';
 
 // COMMON
+
 @import 'components/hide';
 @import 'components/container';
 @import 'components/title';
@@ -18,48 +21,62 @@
 @import 'components/form-checkbox';
 
 // HEADER
+
 @import 'components/header';
 @import 'components/header-logo';
 @import 'components/header-menu';
 @import 'components/header-admin';
+@import 'components/header-info';
+@import 'components/header-burger';
+@import 'components/header-close';
 
 // PROMO
+
 @import 'components/promo';
 
 // BENEFITS
+
 @import 'components/benefits';
 @import 'components/benefits-item';
 
 // KNOW HOW
+
 @import 'components/know-how';
 @import 'components/know-how-item';
 
 // HOW WORK
+
 @import 'components/how-work';
 @import 'components/how-work-item';
 
 // PRICE
+
 @import 'components/price';
 @import 'components/price-services';
 @import 'components/price-benefits';
 
 // REVIEWS
+
 @import 'components/reviews';
 @import 'components/reviews-nav';
 @import 'components/reviews-item';
 
 // FAQ
+
 @import 'components/faq';
 @import 'components/faq-item';
 
 // PARTNERS
+
 @import 'components/partners';
 @import 'components/partners-list';
 
 // FOOTER
+
 @import 'components/footer';
 @import 'components/footer-logo';
 
 // MODAL
+
 @import 'components/modal';
 @import 'components/modal-item';

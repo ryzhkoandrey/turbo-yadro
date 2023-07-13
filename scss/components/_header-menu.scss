@@ -3,6 +3,10 @@
    align-items: center;
    gap: 40px;
 
+   @media (max-width: 1024px) {
+      display: none;
+   }
+
    &__link {
       color: #07040C;
       font-size: 14px;

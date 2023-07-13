@@ -37,6 +37,9 @@
    
             <!-- header admin -->
             <nav class="header-admin">
+               <p class="header-admin__text">
+                  Личный кабинет
+               </p>
                <button class="header-admin__btn header-admin__btn--register" data-graph-path="register" data-graph-animation="fadeInUp">
                   Регистрация
                </button>
@@ -44,6 +47,46 @@
                   Вход
                </button>
             </nav>
+
+            <!-- header info -->
+            <ul class="header-info">
+               <li class="header-info__item">
+                  <h3 class="header-info__title">
+                     Дни работы поддержки
+                  </h3>
+                  <p class="header-info__text">
+                     ПН-ВС. Каждый день
+                  </p>
+                  <p class="header-info__text">
+                     7:00-20:00 по Москве
+                  </p>
+               </li>
+               <li class="header-info__item">
+                  <h3 class="header-info__title">
+                     Контакты
+                  </h3>
+                  <a class="header-info__text header-info__link" href="mailto:help@turbo-yadro.ru">
+                     help@turbo-yadro.ru
+                  </a>
+                  <a class="header-info__text header-info__link" href="tel:79609969576">
+                     +7-960-996-95-76
+                  </a>
+               </li>
+            </ul>
+
+            <!-- header burger -->
+            <button class="header-burger">
+               <svg class="header-burger__icon" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 9H31M5 17.5H31M5 26H31" stroke="#07040C" stroke-linecap="round" stroke-linejoin="round" />
+               </svg>
+            </button>
+
+            <!-- header close -->
+            <button class="header-close">
+               <svg class="header-close__icon" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M26.3848 8L8 26.3848M26.3848 26.3848L8 8" stroke="#07040C"  stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+            </button>
          </div>
       </div>
    </header>
@@ -145,7 +188,7 @@
    </section>
 
    <!-- KNOW HOW -->
-   <section class="know-how">
+   <section class="know-how hide">
       <div class="container">
 
          <!-- know how title -->
@@ -210,7 +253,7 @@
    </section>
 
    <!-- HOW WORK -->
-   <section class="how-work" id="how-work">
+   <section class="how-work hide" id="how-work">
       <div class="container">
 
          <!-- how work title -->
@@ -283,7 +326,7 @@
 
    <!-- PRICE -->
 
-   <section class="price" id="price">
+   <section class="price hide" id="price">
       <div class="container">
 
          <!-- price title -->
@@ -370,7 +413,7 @@
    </section>
 
    <!-- REVIEWS -->
-   <section class="reviews">
+   <section class="reviews hide">
       <div class="container">
 
          <!-- reviews top -->
@@ -535,7 +578,7 @@
    </section>
 
    <!-- FAQ -->
-   <section class="faq" id="faq">
+   <section class="faq hide" id="faq">
       <div class="container">
 
          <!-- faq title -->
@@ -629,7 +672,7 @@
    </section>
 
    <!-- PARTNERS -->
-   <section class="partners">
+   <section class="partners hide">
       <div class="container">
 
          <!-- partners title -->
@@ -678,7 +721,7 @@
    </section>
 
    <!-- FOOTER -->
-   <footer class="footer">
+   <footer class="footer hide">
       <div class="container">
          <div class="footer__inner">
 
@@ -694,9 +737,9 @@
    
             <!-- footer col 2 -->
             <div class="footer__col">
-               <h2 class="footer__title">
+               <h3 class="footer__title">
                   Дни работы поддержки
-               </h2>
+               </h3>
                <p class="footer__value">
                   ПН-ВС. Каждый день
                </p>
@@ -707,9 +750,9 @@
    
             <!-- footer col 3 -->
             <div class="footer__col">
-               <h2 class="footer__title">
+               <h3 class="footer__title">
                   Контакты
-               </h2>
+               </h3>
                <a class="footer__value" href="mailto:help@turbo-yadro.ru">
                   help@turbo-yadro.ru
                </a>
