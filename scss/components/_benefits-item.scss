@@ -5,13 +5,9 @@
    @media (max-width: 1024px) {
       width: 47%;
       max-width: none;
-   }
-   
-   @media (max-width: 576px) {
-      width: 47%;
       text-align: center;
    }
-
+   
    @media (max-width: 350px) {
       width: 100%;
    }
@@ -19,9 +15,12 @@
    &__icon {
       margin: 0 0 10px;
       max-width: 100px;
+
+      @media (max-width: 1024px) {
+         margin: 0 auto 10px;
+      }
       
       @media (max-width: 576px) {
-         margin: 0 auto 10px;
          max-width: 70px;
       }
    }

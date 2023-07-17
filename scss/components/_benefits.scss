@@ -16,11 +16,11 @@
 
       @media (max-width: 1024px) {
          flex-wrap: wrap;
+         justify-content: center;
          gap: 30px 15px;
       }
 
       @media (max-width: 576px) {
-         justify-content: center;
          gap: 30px 18px;
       }
    }
