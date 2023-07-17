@@ -1,16 +1,36 @@
 .how-work-item {
+   width: 32%;
    max-width: 400px;
    display: flex;
    flex-direction: column;
    align-items: center;
+
+   @media (max-width: 1024px) {
+      width: 42%;
+   }
+
+   @media (max-width: 576px) {
+      width: 100%;
+   }
 
    &__top {
       margin: 0 0 8px;
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 15px;
+      flex-wrap: wrap;
+      gap: 5px 15px;
       min-height: 40px;
+
+      @media (max-width: 1300px) {
+         position: relative;
+         padding: 40px 0 0;
+         min-height: 90px;
+      }
+
+      @media (max-width: 377px) {
+         padding: 35px 0 0;
+      }
    }
 
    &__title {
@@ -20,6 +40,15 @@
       font-size: 24px;
       font-family: Ubuntu;
       font-weight: 700;
+
+      @media (max-width: 1300px) {
+         position: static;
+         text-align: center;
+      }
+
+      @media (max-width: 377px) {
+         font-size: 20px;
+      }
    }
 
    &__number {
@@ -29,18 +58,32 @@
       z-index: -1;
       width: 36px;
       height: 36px;
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       color: #FFF;
       font-size: 24px;
       font-family: MV Boli;
       font-weight: 400;
-      line-height: 36px;
-      border-radius: 36px;
+      border-radius: 50%;
       background: #F35A05;
+
+      @media (max-width: 1300px) {
+         top: 0;
+         left: 50%;
+         transform: translateX(-50%);
+      }
+      
+      @media (max-width: 377px) {
+         width: 30px;
+         height: 30px;
+         font-size: 20px;
+      }
    }
 
    &__badge {
       padding: 11px 14px;
+      flex-shrink: 0;
       color: #F35A05;
       font-size: 14px;
       font-family: Ubuntu;
@@ -48,6 +91,13 @@
       text-transform: uppercase;
       border-radius: 30px;
       border: 1px solid #F35A05;
+      
+      @media (max-width: 377px) {
+         padding: 9px 12px;
+         min-width: 80px;
+         min-height: 34px;
+         font-size: 12px;
+      }
    }
    
    &__text {
@@ -57,6 +107,11 @@
       font-size: 16px;
       font-family: Inter;
       line-height: 145%;
+
+      @media (max-width: 377px) {
+         font-size: 15px;
+         margin: 0 0 14px;
+      }
    }
 
    &__video {
@@ -94,6 +149,8 @@
    }
    
    &__video-img {
+      width: 100%;
+      max-width: 390px;
       object-fit: cover;
       border-radius: 15px;
       transition: .3s;
