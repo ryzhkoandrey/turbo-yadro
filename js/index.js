@@ -68,17 +68,27 @@ $('#btn-register-modal').click(function(e) {
 // REVIEWS
 
 const reviewsSlider = new Swiper('.reviews__slider', {
-   slidesPerView: 2,
+   slidesPerView: 1,
    spaceBetween: 40,
 
-   navigation: {
-      prevEl: '.reviews-nav__btn--prev',
-      nextEl: '.reviews-nav__btn--next',
+   pagination: {
+      el: '.reviews-nav__pagination-bottom',
    },
 
-   pagination: {
-      el: '.reviews-nav__pagination',
-      type: 'fraction',
+   breakpoints: {
+      1025: {
+         slidesPerView: 2,
+
+         navigation: {
+            prevEl: '.reviews-nav__btn--prev',
+            nextEl: '.reviews-nav__btn--next',
+         },
+
+         pagination: {
+            el: '.reviews-nav__pagination-top',
+            type: 'fraction',
+         },
+      },
    },
 });
 

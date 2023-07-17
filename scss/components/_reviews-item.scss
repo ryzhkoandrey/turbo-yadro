@@ -33,10 +33,22 @@
    }
 
    &__content {
+      position: relative;
       padding: 4px;
       border-radius: 15px;
       border-radius: 15px;
       box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.10);
+
+      &::after {
+         content: '';
+         position: absolute;
+         top: 30px;
+         left: -10px;
+         z-index: 2;
+         width: 15px;
+         height: 16px;
+         background: url('../img/corner.svg') no-repeat center / cover;
+      }
    }
 
    &__inner {

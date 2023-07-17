@@ -1,12 +1,17 @@
 .reviews-nav {
-   transform: translate(-15px, -14px);
+   transform: translateY(-15px);
    flex-shrink: 0;
    display: flex;
    align-items: center;
-   gap: 3px;
+   gap: 20px;
+
+   @media (max-width: 1024px) {
+      display: none;
+   }
 
    &__btn {
       max-width: 24px;
+      flex-shrink: 0;
 
       &:hover {
 
@@ -19,6 +24,10 @@
          stroke: #07040C;
       }
 
+      &--prev {}
+
+      &--next {}
+
       // swiper
 
       &.swiper-button-disabled {
@@ -30,11 +39,7 @@
       }
    }
 
-   &__btn--prev {
-      margin: 0 26px 0 0;
-   }
-
-   &__pagination {
+   &__pagination-top {
       color: #9A9BAD;
       font-family: Inter;
       font-size: 18px;
@@ -48,5 +53,5 @@
       }
    }
 
-   &__btn--next {}
+   &__pagination-bottom {}
 }

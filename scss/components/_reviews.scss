@@ -1,8 +1,19 @@
 .reviews {
    margin: 0 0 130px;
 
+   @media (max-width: 576px) {
+      margin: 0 0 90px;
+   }
+
+   @media (max-width: 377px) {
+      margin: 0 0 60px;
+   }
+
    &__top {
-      margin: 0 0 50px;
+      margin: 0 0 25px;
+   }
+   
+   &__top-inner {
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
@@ -12,8 +23,9 @@
 
    &__slider {
       overflow: hidden;
-      margin: -25px;
+      margin: 0 auto 25px;
       padding: 25px;
+      max-width: 1330px;
 
       // swiper
 
@@ -23,7 +35,6 @@
    }
 
    &__bottom {
-      margin: 50px 0 0;
       text-align: center;
    }
 
