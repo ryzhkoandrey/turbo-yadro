@@ -20,18 +20,29 @@
       display: flex;
       flex-direction: column;
       gap: 30px;
+
+      @media (max-width: 576px) {
+         padding: 0 20px 20px;
+      }
    }
 
    &__row {
       display: flex;
       justify-content: space-between;
+      gap: 15px;
+
+      @media (max-width: 377px) {
+         flex-direction: column;
+      }
    }
 
    &__form-field {}
 
    &__form-checkbox {}
 
-   &__btn {}
+   &__btn {
+      min-width: auto;
+   }
 
    &__btn-light {
       align-self: center;
@@ -43,6 +54,10 @@
       font-family: Ubuntu;
       font-size: 16px;
       line-height: 150%;
+
+      @media (max-width: 377px) {
+         text-align: left;
+      }
 
       &:hover {
          color: #F35A05;

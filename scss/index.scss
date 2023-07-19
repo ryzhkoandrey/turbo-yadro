@@ -1,17 +1,17 @@
-// GLOBAL
+// global
 
 @import 'global/vars';
 @import 'global/fonts';
 @import 'global/reset';
 @import 'global/base';
 
-// LIBS
+// libs
 
 @import '../libs/fancybox.min.css';
 @import '../libs/swiper.min.css';
 @import '../libs/graph-modal.min.css';
 
-// COMMON
+// blocks
 
 @import 'blocks/hide';
 @import 'blocks/container';
@@ -19,8 +19,6 @@
 @import 'blocks/btn';
 @import 'blocks/form-field';
 @import 'blocks/form-checkbox';
-
-// HEADER
 
 @import 'blocks/header';
 @import 'blocks/header-logo';
@@ -30,53 +28,33 @@
 @import 'blocks/header-burger';
 @import 'blocks/header-close';
 
-// PROMO
-
 @import 'blocks/promo';
-
-// BENEFITS
 
 @import 'blocks/benefits';
 @import 'blocks/benefits-item';
 
-// KNOW-HOW
-
 @import 'blocks/know-how';
 @import 'blocks/know-how-item';
 
-// HOW-WORK
-
 @import 'blocks/how-work';
 @import 'blocks/how-work-item';
-
-// PRICE
 
 @import 'blocks/price';
 @import 'blocks/price-services';
 @import 'blocks/price-benefits';
 
-// REVIEWS
-
 @import 'blocks/reviews';
 @import 'blocks/reviews-nav';
 @import 'blocks/reviews-item';
 
-// FAQ
-
 @import 'blocks/faq';
 @import 'blocks/faq-item';
-
-// PARTNERS
 
 @import 'blocks/partners';
 @import 'blocks/partners-list';
 
-// FOOTER
-
 @import 'blocks/footer';
 @import 'blocks/footer-logo';
-
-// MODAL
 
 @import 'blocks/modal';
 @import 'blocks/modal-item';
