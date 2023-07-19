@@ -103,10 +103,15 @@ $('.faq-item__top').each(function() {
    }
 });
 
-$('.faq-item__top').click(function() {
-   $('.faq-item__top').parent('.faq-item').removeClass('faq-item--active');
-   $('.faq-item__top').siblings('.faq-item__content').slideUp(300);
+$('.faq-item__top').click(function () {
+   if ($(this).parent('.faq-item').hasClass('faq-item--active')) {
+      $('.faq-item__top').parent('.faq-item').removeClass('faq-item--active');
+      $('.faq-item__top').siblings('.faq-item__content').slideUp(300);
+   } else {
+      $('.faq-item__top').parent('.faq-item').removeClass('faq-item--active');
+      $('.faq-item__top').siblings('.faq-item__content').slideUp(300);
 
-   $(this).parent('.faq-item').addClass('faq-item--active')
-	$(this).siblings('.faq-item__content').slideDown(300);
+      $(this).parent('.faq-item').addClass('faq-item--active')
+      $(this).siblings('.faq-item__content').slideDown(300);
+   }
 });

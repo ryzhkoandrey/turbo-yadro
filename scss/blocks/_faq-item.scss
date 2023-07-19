@@ -4,7 +4,7 @@
    &--active {
 
       .faq-item__top {
-         pointer-events: none;
+         // pointer-events: none;
       }
       
       .faq-item__title {
@@ -68,7 +68,7 @@
 
       @media (max-width: 576px) {
          top: 25px;
-         right: 0;
+         right: 3px;
       }
    }
    
