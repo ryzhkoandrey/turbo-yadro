@@ -112,8 +112,8 @@
 
                   @media (max-width: 1024px) {
                      color: #fff;
-                     background: #F35A05;
-                     border-color: #F35A05;
+                     background: $color-accent;
+                     border-color: $color-accent;
                   }
                }
             }
@@ -121,8 +121,8 @@
             &--login {
 
                @media (max-width: 1024px) {
-                  color: #F35A05;
-                  border-color: #F35A05;
+                  color: $color-accent;
+                  border-color: $color-accent;
                }
             }
          }

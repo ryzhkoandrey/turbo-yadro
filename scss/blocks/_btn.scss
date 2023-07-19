@@ -9,8 +9,8 @@
    text-align: center;
    text-transform: uppercase;
    border-radius: 30px;
-   background: #F35A05;
-   border: 2px solid #F35A05;
+   background: $color-accent;
+   border: 2px solid $color-accent;
 
    @media (max-width: 377px) {
       padding: 17px;
@@ -19,7 +19,7 @@
    }
 
    &:hover {
-      color: #F35A05;
+      color: $color-accent;
       background: #FFF;
    }
 

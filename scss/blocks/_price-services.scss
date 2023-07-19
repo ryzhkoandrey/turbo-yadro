@@ -42,7 +42,7 @@
    }
 
    &__title {
-      color: #585967;
+      color: $color-primary;
       font-family: $font-primary;
       font-size: 14px;
       font-weight: 700;
@@ -55,7 +55,7 @@
 
    &__name {
       padding: 4px 0 0;
-      color: #07040C;
+      color: $color-secondary;
       font-family: $font-primary;
       font-size: 16px;
 
@@ -65,7 +65,7 @@
    }
 
    &__value {
-      color: #07040C;
+      color: $color-secondary;
       font-family: $font-primary;
       font-size: 20px;
 
@@ -75,7 +75,7 @@
    }
    
    &__accent {
-      color: #F35A05;
+      color: $color-accent;
       font-weight: 700;
    }
 }

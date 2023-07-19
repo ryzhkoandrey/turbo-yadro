@@ -14,7 +14,7 @@
 
    &__title {
       margin: 0 0 10px;
-      color: #585967;
+      color: $color-primary;
       text-align: center;
       font-family: $font-primary;
       font-size: 14px;
@@ -23,7 +23,7 @@
    
    &__text {
       margin: 0 0 10px;
-      color: #07040C;
+      color: $color-secondary;
       text-align: center;
       font-family: $font-primary;
       font-size: 16px;
@@ -33,7 +33,7 @@
    &__link {
 
       &:hover {
-         color: #F35A05;
+         color: $color-accent;
       }
    }
 }

@@ -36,7 +36,7 @@
    &__title {
       position: relative;
       display: inline;
-      color: #07040C;
+      color: $color-secondary;
       font-size: 24px;
       font-family: $font-secondary;
       font-weight: 700;
@@ -66,7 +66,7 @@
       font-family: $font-decorative;
       font-weight: 400;
       border-radius: 50%;
-      background: #F35A05;
+      background: $color-accent;
 
       @media (max-width: 1300px) {
          top: 0;
@@ -84,13 +84,13 @@
    &__badge {
       padding: 11px 14px;
       flex-shrink: 0;
-      color: #F35A05;
+      color: $color-accent;
       font-size: 14px;
       font-family: $font-secondary;
       font-weight: 500;
       text-transform: uppercase;
       border-radius: 30px;
-      border: 1px solid #F35A05;
+      border: 1px solid $color-accent;
       
       @media (max-width: 377px) {
          padding: 9px 12px;
@@ -102,7 +102,7 @@
    
    &__text {
       margin: 0 0 15px;
-      color: #585967;
+      color: $color-primary;
       text-align: center;
       font-size: 16px;
       font-family: $font-primary;
@@ -123,7 +123,7 @@
       transition: .3s;
 
       &:hover {
-         border-color: #F35A05;
+         border-color: $color-accent;
 
          &::after {
             opacity: 0;
@@ -141,7 +141,7 @@
          right: 4px;
          bottom: 4px;
          left: 4px;
-         background: #07040C;
+         background: $color-secondary;
          border-radius: 15px;
          opacity: 0.4;
          transition: .3s;

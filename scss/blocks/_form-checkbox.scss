@@ -3,10 +3,10 @@
    &:hover {
 
       .form-checkbox__text {
-         color: #F35A05;
+         color: $color-accent;
 
          &::before {
-            border-color: #F35A05;
+            border-color: $color-accent;
          }
       }
    }
@@ -19,8 +19,8 @@
       clip: rect(0 0 0 0);
 
       &:checked + .form-checkbox__text::before {
-         border-color: #F35A05;
-         background: #F35A05;
+         border-color: $color-accent;
+         background: $color-accent;
       }
 
       &:checked + .form-checkbox__text::after {
@@ -32,7 +32,7 @@
       position: relative;
       padding: 0 0 0 30px;
       display: inline-block;
-      color: #585967;
+      color: $color-primary;
       font-family: $font-secondary;
       font-size: 16px;
       line-height: 150%;

@@ -8,14 +8,14 @@
       }
       
       .faq-item__title {
-         color: #F35A05;
+         color: $color-accent;
       }
 
       .faq-item__icon {
          transform: rotate(90deg);
 
          path {
-            stroke: #F35A05;
+            stroke: $color-accent;
          }
       }
    }
@@ -32,20 +32,20 @@
       &:hover {
 
          .faq-item__title {
-            color: #F35A05;
+            color: $color-accent;
          }
          
          .faq-item__icon {
             
             path {
-               stroke: #F35A05;
+               stroke: $color-accent;
             }
          }
       }
    }
    
    &__title {
-      color: #07040C;
+      color: $color-secondary;
       font-family: $font-secondary;
       font-size: 24px;
       font-weight: 700;
@@ -82,7 +82,7 @@
    }
 
    &__text {
-      color: #585967;
+      color: $color-primary;
       font-family: $font-primary;
       font-size: 16px;
       line-height: 145%;

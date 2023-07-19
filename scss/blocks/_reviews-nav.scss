@@ -16,12 +16,12 @@
       &:hover {
 
          path {
-            stroke: #F35A05;
+            stroke: $color-accent;
          }
       }
 
       path {
-         stroke: #07040C;
+         stroke: $color-secondary;
       }
 
       &--prev {}
@@ -49,7 +49,7 @@
       .swiper-pagination-current {
          display: inline-block;
          min-width: 12px;
-         color: #07040C;
+         color: $color-secondary;
       }
    }
 
@@ -67,7 +67,7 @@
       }
 
       .swiper-pagination-bullet-active {
-         background: #F35A05;
+         background: $color-accent;
       }
    }
 }
