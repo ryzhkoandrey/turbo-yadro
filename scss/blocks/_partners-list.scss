@@ -4,6 +4,10 @@
    flex-direction: column;
    gap: 28px;
 
+   @media (max-width: 377px) {
+      gap: 13px;
+   }
+
    &__item {
       position: relative;
       padding: 20px 20px 20px 56px;
@@ -11,6 +15,14 @@
       border-radius: 15px;
       border: 1px dashed #E2E3EF;
       transition: .3s;
+
+      @media (max-width: 1024px) {
+         max-width: none;
+      }
+      
+      @media (max-width: 377px) {
+         padding: 15px 15px 20px 50px;
+      }
 
       &:hover {
          border-color: transparent;
@@ -23,6 +35,11 @@
       top: 22px;
       left: 19px;
       max-width: 21px;
+
+      @media (max-width: 377px) {
+         top: 18px;
+         left: 14px;
+      }
    }
 
    &__title {
@@ -32,6 +49,14 @@
       font-size: 24px;
       font-weight: 700;
       line-height: 125%;
+
+      @media (max-width: 576px) {
+         font-size: 20px;
+      }
+
+      @media (max-width: 377px) {
+         margin: 0 0 10px;
+      }
    }
 
    &__text {
@@ -39,5 +64,9 @@
       font-family: Inter;
       font-size: 16px;
       line-height: 145%;
+
+      @media (max-width: 377px) {
+         font-size: 15px;
+      }
    }
 }
