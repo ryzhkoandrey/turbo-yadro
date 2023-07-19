@@ -3,18 +3,35 @@
    gap: 10px;
    height: 100%;
 
+   @media (max-width: 576px) {
+      flex-direction: column-reverse;
+      gap: 20px;
+      height: auto;
+   }
+
    &__author {
       flex-shrink: 0;
       width: 125px;
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      @media (max-width: 576px) {
+         flex-direction: row;
+         gap: 10px;
+         width: 100%;
+      }
    }
 
    &__photo {
       margin: 0 0 15px;
       max-width: 90px;
       border-radius: 100%;
+
+      @media (max-width: 576px) {
+         margin: 0;
+         max-width: 70px;
+      }
    }
 
    &__name {
@@ -23,6 +40,11 @@
       text-align: center;
       font-family: Inter;
       font-size: 20px;
+
+      @media (max-width: 576px) {
+         text-align: left;
+         font-size: 18px;
+      }
    }
 
    &__job {
@@ -30,6 +52,10 @@
       text-align: center;
       font-family: Inter;
       font-size: 14px;
+
+      @media (max-width: 576px) {
+         text-align: left;
+      }
    }
 
    &__content {
@@ -48,6 +74,13 @@
          width: 15px;
          height: 16px;
          background: url('../img/corner.svg') no-repeat center / cover;
+
+         @media (max-width: 576px) {
+            top: auto;
+            bottom: -10px;
+            left: 27px;
+            transform: rotate(-90deg);
+         }
       }
    }
 
@@ -56,6 +89,10 @@
       height: 100%;
       border-radius: 15px;
       border: 1px dashed #E2E3EF;
+
+      @media (max-width: 576px) {
+         padding: 20px 15px 10px;
+      }
    }
 
    &__title {
@@ -66,6 +103,10 @@
       font-family: Inter;
       font-size: 20px;
       font-weight: 700;
+
+      @media (max-width: 576px) {
+         font-size: 18px;
+      }
 
       &::before {
          content: '';
@@ -84,5 +125,9 @@
       font-family: Inter;
       font-size: 16px;
       line-height: 150%;
+
+      @media (max-width: 576px) {
+         font-size: 14px;
+      }
    }
 }

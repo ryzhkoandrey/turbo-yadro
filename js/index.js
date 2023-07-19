@@ -70,14 +70,17 @@ $('#btn-register-modal').click(function(e) {
 const reviewsSlider = new Swiper('.reviews__slider', {
    slidesPerView: 1,
    spaceBetween: 40,
-
+   autoHeight: true,
+   
    pagination: {
       el: '.reviews-nav__pagination-bottom',
+      clickable: true,
    },
 
    breakpoints: {
       1025: {
          slidesPerView: 2,
+         autoHeight: false,
 
          navigation: {
             prevEl: '.reviews-nav__btn--prev',

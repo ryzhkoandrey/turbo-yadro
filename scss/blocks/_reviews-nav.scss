@@ -53,5 +53,21 @@
       }
    }
 
-   &__pagination-bottom {}
+   &__pagination-bottom {
+
+      @media (max-width: 1024px) {
+         margin: 0 0 25px;
+      }
+
+      // swiper
+
+      .swiper-pagination-bullet {
+         background: #E2E3EF;
+         opacity: 1;
+      }
+
+      .swiper-pagination-bullet-active {
+         background: #F35A05;
+      }
+   }
 }
