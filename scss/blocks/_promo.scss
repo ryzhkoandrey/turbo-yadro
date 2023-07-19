@@ -37,7 +37,7 @@
       margin: 0 0 30px;
       color: #07040C;
       font-size: 60px;
-      font-family: Ubuntu;
+      font-family: $font-secondary;
       font-weight: 700;
 
       @media (max-width: 1024px) {
@@ -59,7 +59,7 @@
       max-width: 510px;
       color: #585967;
       font-size: 20px;
-      font-family: Inter;
+      font-family: $font-primary;
       line-height: 145%;
 
       @media (max-width: 1024px) {
@@ -105,7 +105,7 @@
       max-width: 220px;
       color: #808296;
       font-size: 16px;
-      font-family: Inter;
+      font-family: $font-primary;
       line-height: 145%;
 
       @media (max-width: 377px) {
