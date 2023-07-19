@@ -1,6 +1,14 @@
 .partners {
    margin: 0 0 120px;
 
+   @media (max-width: 576px) {
+      margin: 0 0 90px;
+   }
+
+   @media (max-width: 377px) {
+      margin: 0 0 60px;
+   }
+
    &__title {
       margin: 0 0 40px;
    }
