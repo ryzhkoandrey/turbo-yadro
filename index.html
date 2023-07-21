@@ -86,14 +86,14 @@
             </ul>
 
             <!-- header burger -->
-            <button class="header-burger" aria-label="Меню">
+            <button class="header-burger" aria-label="Открыть Меню">
                <svg class="header-burger__icon" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M5 9H31M5 17.5H31M5 26H31" stroke="#07040C" stroke-linecap="round" stroke-linejoin="round" />
                </svg>
             </button>
 
             <!-- header close -->
-            <button class="header-close">
+            <button class="header-close" aria-label="Закрыть Меню">
                <svg class="header-close__icon" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M26.3848 8L8 26.3848M26.3848 26.3848L8 8" stroke="#07040C"  stroke-linecap="round" stroke-linejoin="round"/>
                </svg>
@@ -821,7 +821,7 @@
                   <label class="form-field__title" for="nickname">
                      Ваш ник в Телеграмме
                   </label>
-                  <input class="form-field__input" id="nickname" type="text" placeholder="nickname">
+                  <input class="form-field__input" id="nickname" type="text" placeholder="nickname" required>
                   <p class="form-field__text">
                      *введите никнейм без @
                   </p>
@@ -832,7 +832,7 @@
                   <label class="form-field__title" for="password">
                      Пароль
                   </label>
-                  <input class="form-field__input" id="password" type="password">
+                  <input class="form-field__input" id="password" type="password" required>
                </div>
 
                <!-- modal item btn 1 -->
@@ -846,7 +846,7 @@
                </button>
 
                <!-- modal item btn light -->
-               <button class="btn btn--light modal-item__btn-light" id="btn-login-modal" data-graph-path="login" data-graph-animation="fadeInUp">
+               <button class="btn btn--light modal-item__btn-light" id="btn-login-modal" data-graph-path="login" data-graph-animation="fadeInUp" type="button">
                   Я уже зарегестрирован
                </button>
             </form>
@@ -871,7 +871,7 @@
                   <label class="form-field__title" for="nickname-2">
                      Ваш логин
                   </label>
-                  <input class="form-field__input" id="nickname-2" type="text" placeholder="nickname">
+                  <input class="form-field__input" id="nickname-2" type="text" placeholder="nickname" required>
                   <p class="form-field__text">
                      *введите логин без @
                   </p>
@@ -882,7 +882,7 @@
                   <label class="form-field__title" for="password-2">
                      Пароль
                   </label>
-                  <input class="form-field__input" id="password-2" type="password">
+                  <input class="form-field__input" id="password-2" type="password" required>
                </div>
 
                <!-- modal item row -->
@@ -904,7 +904,7 @@
                </button>
 
                <!-- modal item btn light -->
-               <button class="btn btn--light modal-item__btn-light" id="btn-register-modal" data-graph-path="register" data-graph-animation="fadeInUp">
+               <button class="btn btn--light modal-item__btn-light" id="btn-register-modal" data-graph-path="register" data-graph-animation="fadeInUp" type="button">
                   Зарегистрироваться
                </button>
             </form>
